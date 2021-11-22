@@ -20,6 +20,9 @@ main{
 .title{
     margin-top: 20px;
 }
+.title p{
+    color: rgb(158, 156, 156);
+}
 #author{
     text-decoration: none;
     color: rgb(43, 139, 230);
@@ -29,4 +32,30 @@ main{
 }
 .info-photo{
     font-size: 12px;
+}
+.highlighter{
+    background-color: rgb(233, 233, 0);
+}
+.text{
+    margin-top: 20px;
+}
+section ul{
+    margin-left: 15px;
+}
+table{
+    text-align: left;
+    border-spacing: 0;
+}
+.first-column, .second-column{
+    width: 20%;
+    background-color: rgb(4, 98, 185);
+    color: #fff;
+}
+.third-column{
+    width: 60%;
+    background-color: rgb(4, 98, 185);
+    color: #fff;
+}
+.color{
+    background-color: rgb(38, 185, 243);
 }
