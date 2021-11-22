@@ -24,3 +24,9 @@ main{
     text-decoration: none;
     color: rgb(43, 139, 230);
 }
+.photo{
+    margin-top: 20px;
+}
+.info-photo{
+    font-size: 12px;
+}
