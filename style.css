@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    background-image: url(img/pattern.png);
+    background-size: 25%;
+    background-color: rgb(43, 139, 230);
+}
+#logo{
+    width: 150px;
+    margin: 40px 0px 10px 10px;
+}   
+main{
+    margin-left: 5px;
+}
+#date{
+    font-size: 10px;
+}
+.title{
+    margin-top: 20px;
+}
+#author{
+    text-decoration: none;
+    color: rgb(43, 139, 230);
+}
