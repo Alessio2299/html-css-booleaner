@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .heading{
     background-image: url(img/pattern.png);
     background-size: 25%;
@@ -11,7 +14,7 @@
     width: 150px;
     margin: 40px 0px 10px 10px;
 }   
-main{
+main, footer{
     margin-left: 5px;
 }
 #date{
@@ -58,4 +61,38 @@ table{
 }
 .color{
     background-color: rgb(38, 185, 243);
+}
+#text-grey{
+    color: rgb(158, 156, 156);
+}
+#first-photo{
+    width: 250px;
+    height: 200px;
+    background-image: url(img/monitor.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    padding-top: 10px;
+    border: 2px solid rgb(0, 0, 0)
+
+}
+#first-photo a{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+#second-photo{
+    width: 250px;
+    height: 200px;
+    background-image: url(img/graph.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    padding-top: 10px;
+    border: 2px solid rgb(0, 0, 0)
+}
+#second-photo a{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
 }
